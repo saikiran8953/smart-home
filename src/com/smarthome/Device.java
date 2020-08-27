@@ -19,7 +19,7 @@ public class Device {
 	}
 
 
-	private Map<String,Appliance> appliances = new HashMap<>();
+	private Map<String,Appliance> appliances = new HashMap<String,Appliance>();
     /*map contains key,value.
      *bedroom fan,fanObj 
      * bedroom light ,lightObj

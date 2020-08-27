@@ -11,7 +11,7 @@ public class Constants {
 	static Set<String> tvCommandNames = addTvCommands();
 
 	private static  Set<String> addFanCommands() {
-		Set<String> set = new HashSet<>();
+		Set<String> set = new HashSet<String>();
 		set.add("SWITCH ON");
 		set.add("SWITCH OFF");
 		set.add("CHANGE SPEED");
@@ -19,14 +19,14 @@ public class Constants {
 	}
 	
 	private static  Set<String> addLightCommands() {
-		Set<String> set = new HashSet<>();
+		Set<String> set = new HashSet<String>();
 		set.add("SWITCH ON");
 		set.add("SWITCH OFF");
 		return set;
 	}
 	
 	private static  Set<String> addTvCommands() {
-		Set<String> set = new HashSet<>();
+		Set<String> set = new HashSet<String>();
 		set.add("SWITCH ON");
 		set.add("SWITCH OFF");
 		set.add("CHANGE VOLUME");
