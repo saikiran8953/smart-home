@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SmartHome {
-	private Map<String,Device> listOfDevices = new HashMap<>();
+	private Map<String,Device> listOfDevices = new HashMap<String,Device>();
 	private String name;
 	
 	public SmartHome(String name) {
